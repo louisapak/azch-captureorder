@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: louisaacrname.azurecr.io/captureorder:ca1
+          image: louisaacrname.azurecr.io/captureorder
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
